@@ -1,0 +1,1 @@
+﻿new-item c:\temp -itemtype directory
