@@ -5,4 +5,4 @@
 
 $Wingetpath = Split-Path -Path $WingetPath -Parent
 cd $wingetpath
-.\winget.exe install XPFNZKSKLBP7RJ -h -e --accept-package-agreements  --accept-source-agreements --force --scope machine
+.\winget.exe install PuTTY.PuTTY -h -e --accept-package-agreements  --accept-source-agreements --force --scope machine
