@@ -15,4 +15,7 @@ Invoke-WebRequest -Uri https://github.com/mcabritafaronics/Faronics/raw/main/WSE
 invoke-webrequest -Uri https://github.com/mcabritafaronics/Faronics/raw/main/LaunchModernApp.exe -Outfile "C:\Program Files\Faronics\WINSelect\LaunchModernApp.exe"
 
 #Restart Computer
-Restart-Computer -Force
+#Restart-Computer -Force
+
+#Start WS Engine
+SC start WSengine
