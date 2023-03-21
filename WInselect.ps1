@@ -17,5 +17,4 @@ invoke-webrequest -Uri https://github.com/mcabritafaronics/Faronics/raw/main/Lau
 #Restart Computer
 Restart-Computer -Force
 
-#Start WS Engine (Doesnt seem to work just restarting services)
-#SC start WSengine
+
