@@ -2,6 +2,9 @@
 #Created March 20, 2023
 #By Michael Cabrita
 
+#Stop WSEngine
+sc stop wsengine
+
 #Rename Winselect
 Rename-Item -Path "C:\Program Files\Faronics\WINSelect\WSEngine.exe" -NewName "WSEngineOLD.OLD"
 
